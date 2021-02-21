@@ -1,6 +1,5 @@
 # Photo-Gallery 📸🎞
 
-# Carousel-Slides 💻🎠
 
 <p>Photo gallery made with HTML, CSS and Vanilla Javascript. It has a modal view when clicking on any image of the gallery.</p>
 
