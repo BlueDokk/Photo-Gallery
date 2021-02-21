@@ -1,0 +1,152 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ddd;
+}
+
+.container-fluid{
+    position:relative;
+    margin:auto;
+    width:100%;
+    height: auto;
+}
+
+.row{
+    position:relative;
+    margin:auto;
+    width:100%;
+    height: auto;
+    clear:both;
+    display:table;
+}
+
+[class*='col-']{
+    float:left;
+    padding:0px;
+}
+
+/*=============================================
+PHOTO GALLERY
+=============================================*/
+
+.gallery{
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+.gallery__group{
+    padding: 20px;
+}
+.gallery__group li{
+    padding:10px;
+    cursor: pointer;
+    transition: .6s;
+}
+.gallery__group li:hover{
+    transition: .6s;
+    opacity: .6;
+}
+.gallery__group li img{
+    width: 100%;
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en
+portatil o pc
+=============================================*/
+
+@media(min-width:1200px){
+
+    .col-lg-12{width:100%;}
+    .col-lg-11{width:91.66666667%;}
+    .col-lg-10{width:83.33333333%;}
+    .col-lg-9{width:75%;}
+    .col-lg-8{width:66.66666667%;}
+    .col-lg-7{width:58.33333333%;}
+    .col-lg-6{width:50%;}
+    .col-lg-5{width:41.66666667%;}
+    .col-lg-4{width: 33.33333333%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-2 {width: 16.66666667%;}
+    .col-lg-1 {width: 8.33333333%;}
+    .col-lg-0{display:none;}
+
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+=============================================*/
+
+@media(max-width:1199px) and (min-width:992px){
+
+    .col-md-12{width:100%;}
+    .col-md-11{width:91.66666667%;}
+    .col-md-10{width:83.33333333%;}
+    .col-md-9{width:75%;}
+    .col-md-8{width:66.66666667%;}
+    .col-md-7{width:58.33333333%;}
+    .col-md-6{width:50%;}
+    .col-md-5{width:41.66666667%;}
+    .col-md-4{width: 33.33333333%;}
+    .col-md-3{width: 25%;}
+    .col-md-2{width: 16.66666667%;}
+    .col-md-1{width: 8.33333333%;}
+    .col-md-0{display:none;}
+
+}
+
+/*=============================================
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+=============================================*/
+
+@media(max-width:991px) and (min-width:768px){
+
+    .col-sm-12{width:100%;}
+    .col-sm-11{width:91.66666667%;}
+    .col-sm-10{width:83.33333333%;}
+    .col-sm-9{width:75%;}
+    .col-sm-8{width:66.66666667%;}
+    .col-sm-7{width:58.33333333%;}
+    .col-sm-6{width:50%;}
+    .col-sm-5{width:41.66666667%;}
+    .col-sm-4{width: 33.33333333%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-2{width: 16.66666667%;}
+    .col-sm-1{width: 8.33333333%;}
+    .col-sm-0{display:none;}
+    
+}
+
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+=============================================*/
+
+@media(max-width:767px){
+
+    .col-xs-12{width:100%;}
+    .col-xs-11{width:91.66666667%;}
+    .col-xs-10{width:83.33333333%;}
+    .col-xs-9{width:75%;}
+    .col-xs-8{width:66.66666667%;}
+    .col-xs-7{width:58.33333333%;}
+    .col-xs-6{width:50%;}
+    .col-xs-5{width:41.66666667%;}
+    .col-xs-4{width: 33.33333333%;}
+    .col-xs-3{width: 25%;}
+    .col-xs-2{width: 16.66666667%;}
+    .col-xs-1{width: 8.33333333%;}
+    .col-xs-0{display:none;}
+
+}
